@@ -4,7 +4,7 @@ function verifyPasscode() {
     const message = document.getElementById("message");
 
     if (passcode === correctPasscode) {
-        const newWindow = window.open("https://ooopenlab.cc/preview/ogZHIXBvKVUkZ7IKpGVa", "_blank");
+        const newWindow = window.open("https://ooopenlab.cc/quiz/xBbpWeqHqkpuN5n4SbgZ", "_blank");
         if (!newWindow || newWindow.closed || typeof newWindow.closed == "undefined") {
             message.textContent = "請允許彈出式視窗以查看最終頁面！";
         }
